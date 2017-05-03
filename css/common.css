@@ -8,11 +8,24 @@
     margin: 0;
     padding: 0;
 }
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+/*-------------------------------*/
 .container{
     width: 100%;
     margin:  0 auto;
 }
-.row: before. .row:after{
+.row: before,.row:after{
     content: " ";
     display: table;
 }
@@ -24,8 +37,6 @@
     min-height: 7px;
     padding: 12px;
     float: left;
-    padding: 7px;
-
 }
 
 .col-1{
@@ -79,17 +90,7 @@
 }
 
 /*---------------------Final de mi grid--------------------*/
-.mb-0 {
-  margin-bottom: 0;
-}
 
-.mt-0 {
-  margin-top: 0;
-}
-
-.text-uppercase {
-  text-transform: uppercase;
-}
 
 /*-----------GLOBALES no grid-----*/
 
