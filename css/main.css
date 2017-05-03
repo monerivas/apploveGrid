@@ -1,0 +1,132 @@
+/*
+ * Ingresa el CSS del proyecto en este archivo
+ */
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  /* Establece la fuente de Google aquí */
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 1.71429;
+  background-color: #fff;
+}
+
+img {
+  vertical-align: middle;
+}
+
+a {
+  color: #373B47;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E95853;
+}
+
+/*CSS mone*/
+
+.link{
+    font-weight: 700;
+    padding: 21px;
+    display: inline-block;
+}
+.logo{
+    float: right;
+}
+header{
+    position: fixed;
+    background: white;
+    width: 100%;
+    top:0;
+    color: black;
+}
+.menu{
+    padding:  14px 70px;
+    overflow: auto; /*nuscar que es overflow*/
+}
+#home{
+    background-image: url(../assets/images/bg-home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 554px;
+    text-align: center;
+    margin-top: 80px;  
+    color: white;
+}
+
+#home .container{
+    color: white;
+    padding: 70px;
+}
+
+.text-home{
+    font-size: 53px;
+}
+
+.btn-home{
+    background: #2ECC71;
+    color: #fff;
+    padding: 11px 20px;
+    border-radius: 1px;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 63px;
+    display: inline-block;
+    font-size: 14px;    
+}
+
+
+/*----------Services section-------------*/
+
+#services{
+    background-color: #F17C72;
+    text-align: center;
+    color: #fff;
+    padding: 70px 7px;
+    float: left;
+}
+
+.box-services{
+    display: inline-block;
+    width: 30%;
+    margin-top: 63px;
+}
+
+.text-services{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+
+
+/*---------Seccion 3 WORK---------*/
+#work{
+    
+}
+
+
+
+/*---------footer---------*/
+
+.estilosFooter{    
+    height:70px;
+    background: #373B47;
+    color: white;
+    padding-top: 7px; 
+    text-align: center;
+}
+
